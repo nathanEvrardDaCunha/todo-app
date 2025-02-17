@@ -1,12 +1,62 @@
 <!DOCTYPE html>
+<!-- TODO: Document HTML naming convention for IDs for code consistency. -->
+<!-- TODO: Document HTML naming convention for Classes for code consistency. -->
 <html lang="en">
+        <!-- TODO: Implement OpenGraph meta tags for SEO enhancements. -->
+        <!-- TODO: Implement favicon for users readibility enhancement. -->
+        <!-- TODO: Implement generic meta tag for readability, portability and SEO enhancements. -->
         <head>
                 <meta charset="UTF-8" />
-                <meta
-                        name="viewport"
-                        content="width=device-width, initial-scale=1.0"
-                />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Document</title>
         </head>
-        <body></body>
+        <!-- TODO: Implement semantic grouping for navigation enhancements. -->
+        <!-- TODO: Implement semantic heading for navigation enhancements. -->
+        <!-- TODO: Implement semantic footer for contextual enhancements. -->
+        <body>
+                <!-- TODO: Implement semantic data displayer for improving core features usability. -->
+                <!-- TODO: implement semantic error displayer for improving core features understanding. -->
+                <main>
+                        <!-- TODO: Link form action to corresponding javascript file for improving code workflow. -->
+                        <form action="#" method="post">
+                                <fieldset>
+                                        <legend>Create your new tasks</legend>
+
+                                        <!-- TODO: Implement data required validation to ensure only defined data is passed. -->
+                                        <!-- TODO: implement data type validation to ensure only right data type is passed. -->
+                                        <label for="form-task-name">Name your task (required).</label>
+                                        <input id="form-task-name" name="form-task-name" type="text" required />
+
+                                        <!-- TODO: Implement data required validation to ensure only defined data is passed. -->
+                                        <!-- TODO: implement data type validation to ensure only right data type is passed. -->
+
+                                        <label for="form-task-description">Describe your task (required).</label>
+                                        <textarea id="form-task-description" name="form-task-description" rows="5" cols="33" required></textarea>
+
+                                        <!-- TODO: Implement data value validation to ensure only proper data is passed. -->
+                                        <!-- TODO: Implement data required validation to ensure only defined data is passed. -->
+                                        <!-- TODO: implement data type validation to ensure only right data type is passed. -->
+                                        <label for="form-task-priority">Choose your task priority (required).</label>
+                                        <select id="form-task-priority" name="form-task-priority" required>
+                                                <option value="important-urgent">Important and Urgent</option>
+                                                <option value="only-urgent">Only Urgent</option>
+                                                <option value="only-important">Only Important</option>
+                                                <option value="no-priority">Neither Important or Urgent</option>
+                                        </select>
+
+                                        <!-- TODO: Implement data required validation to ensure only defined data is passed. -->
+                                        <!-- TODO: Implement data type validation to ensure only right data type is passed. -->
+                                        <!-- TODO: Implement data value validation to ensure only proper data is passed. -->
+                                        <label for="form-task-due-date">Choose your task due date (required).</label>
+                                        <input id="form-task-due-date" name="form-task-due-date" type="date" required />
+
+                                        <!-- TODO: Implement submit functionality in javascript for improving form usability. -->
+                                        <button type="submit">Submit Form</button>
+
+                                        <!-- TODO: Implement reset functionality in javascript for improving form usability. -->
+                                        <button type="reset">Reset Form</button>
+                                </fieldset>
+                        </form>
+                </main>
+        </body>
 </html>

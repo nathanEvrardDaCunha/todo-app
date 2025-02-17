@@ -19,3 +19,4 @@ File ecluded from those guidelines are:
 - README.md
 - LICENCE
 - .gitignore
+- .prettierc

@@ -60,19 +60,14 @@ Commit scope should follow those guidelines:
 - be relevant
 - be meaningfull
 - be consistent
-- explain in key changes what changed and how, not why
+- explain in key changes what changed, where and how, not why
 
 ### Final example
 
 ```md
-chore(config): setup vite vanilla template to speed up project initialization.
+fix(core): remove create task form attributes to prevent crashs.
 
 Key Changes:
-- Create package.json file.
-- Create package-lock.json file.
-- Create index.html file.
-- Create .gitignore file.
-- Create src folder.
-- Create public folder.
-- Create node_modules folder.
+- Remove action form attribute from create task form in index.html.
+- Remove method form attribute from create task form in index.html.
 ```
